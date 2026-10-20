@@ -1,0 +1,3 @@
+-r requirements.txt
+-r price_bot/requirements.txt
+pytest>=8

@@ -1,0 +1,37 @@
+# Secrets and local settings - never commit
+/secrets/
+/config.json
+*.env
+!*.env.example
+price_bot/authorized_users.json
+price_bot/topics.json
+price_bot/private_topics.json
+
+# Local machine settings
+/tools/tender_base_folder.txt
+/tools/bin/
+
+# Tender data (contains buyers' contact details and commercial information)
+/all_tenders.csv
+/all_tenders_backup_*.csv
+/internal_number_state.txt
+/AIExtract/
+/tmp_deepseek_*/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Your company's own data (create from templates/)
+/COMPANY.md
+/CORPORATE_DOCS.md
+/CorporateDocs/

@@ -1,0 +1,6 @@
+# tools/ (the extraction pipeline helpers)
+openpyxl>=3.1
+python-docx>=1.1
+# optional - installed automatically on first use by tools/extract_archive.py
+rarfile>=4.0
+py7zr>=0.20

@@ -1,0 +1,22 @@
+{
+  "nocodb": {
+    "url": "https://app.nocodb.com",
+    "workspace_id": "your-workspace-id",
+    "base_id": "your-base-id",
+    "registry_table_id": "",
+    "registry_table_title": "Tender Registry"
+  },
+  "internal_number": {"prefix": "T-", "start": 1},
+  "base_currency": "EUR",
+  "vat_rate": 0.20,
+  "home_market": "Germany",
+  "international_priority": ["Germany", "China", "United States"],
+  "cost_coefficients": {
+    "domestic_b2b": 1.00,
+    "domestic_retail": 1.12,
+    "import": 1.28,
+    "supplier_quote": 1.00
+  },
+  "procurement_slots": 10,
+  "deepseek_model": "deepseek-v4-pro"
+}

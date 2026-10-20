@@ -1,0 +1,9 @@
+# Topics in private chats need Bot API 9.4 (aiogram 3.25+)
+aiogram>=3.25,<4
+aiohttp>=3.9
+# reading invoices / quotations / price lists
+pypdf>=4.0
+pypdfium2>=4.0
+python-docx>=1.1
+openpyxl>=3.1
+pillow>=10.0
